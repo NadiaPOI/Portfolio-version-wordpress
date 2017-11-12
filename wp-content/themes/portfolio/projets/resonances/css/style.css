@@ -1,0 +1,697 @@
+/*Dosis*/
+
+
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-extrabold-webfont.eot");
+  src: url("../fonts/dosis-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dosis-extrabold-webfont.woff2") format("woff2"), url("../fonts/dosis-extrabold-webfont.woff") format("woff"), url("../fonts/dosis-extrabold-webfont.ttf") format("truetype"), url("../fonts/dosis-extrabold-webfont.svg#dosisextrabold") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-bold-webfont.eot");
+  src: url("../fonts/dosis-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dosis-bold-webfont.woff2") format("woff2"), url("../fonts/dosis-bold-webfont.woff") format("woff"), url("../fonts/dosis-bold-webfont.ttf") format("truetype"), url("../fonts/dosis-bold-webfont.svg#dosisbold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-semibold-webfont.eot");
+  src: url("../fonts/dosis-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dosis-semibold-webfont.woff2") format("woff2"), url("../fonts/dosis-semibold-webfont.woff") format("woff"), url("../fonts/dosis-semibold-webfont.ttf") format("truetype"), url("../fonts/dosis-semibold-webfont.svg#dosissemibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-medium-webfont.eot");
+  src: url("../fonts/dosis-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dosis-medium-webfont.woff2") format("woff2"), url("../fonts/dosis-medium-webfont.woff") format("woff"), url("../fonts/dosis-medium-webfont.ttf") format("truetype"), url("../fonts/dosis-medium-webfont.svg#dosismedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-regular-webfont.eot");
+  src: url("../fonts/dosis-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dosis-regular-webfont.woff2") format("woff2"), url("../fonts/dosis-regular-webfont.woff") format("woff"), url("../fonts/dosis-regular-webfont.ttf") format("truetype"), url("../fonts/dosis-regular-webfont.svg#dosisregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-light-webfont.eot");
+  src: url("../fonts/dosis-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dosis-light-webfont.woff2") format("woff2"), url("../fonts/dosis-light-webfont.woff") format("woff"), url("../fonts/dosis-light-webfont.ttf") format("truetype"), url("../fonts/dosis-light-webfont.svg#dosislight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dosis';
+  src: url("../fonts/dosis-extralight-webfont.eot");
+  src: url("../fonts/dosis-extralight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/dosis-extralight-webfont.woff2") format("woff2"), url("../fonts/dosis-extralight-webfont.woff") format("woff"), url("../fonts/dosis-extralight-webfont.ttf") format("truetype"), url("../fonts/dosis-extralight-webfont.svg#dosisextralight") format("svg");
+  font-weight: 100;
+  font-style: normal; 
+}
+
+/* Neutraface */
+
+@font-face {
+  font-family: 'neutrafacecondensedps';
+  src: url("../fonts/neutrafacecondensedps-titling-webfont.eot");
+  src: url("../fonts/neutrafacecondensedps-titling-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/neutrafacecondensedps-titling-webfont.woff2") format("woff2"), url("../fonts/neutrafacecondensedps-titling-webfont.woff") format("woff"), url("../fonts/neutrafacecondensedps-titling-webfont.ttf") format("truetype"), url("../fonts/neutrafacecondensedps-titling-webfont.svg#neutrafacecondensedpsblack") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neutrafacecondensedps';
+  src: url("../fonts/neutrafacecondensedps-bold-webfont.eot");
+  src: url("../fonts/neutrafacecondensedps-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/neutrafacecondensedps-bold-webfont.woff2") format("woff2"), url("../fonts/neutrafacecondensedps-bold-webfont.woff") format("woff"), url("../fonts/neutrafacecondensedps-bold-webfont.ttf") format("truetype"), url("../fonts/neutrafacecondensedps-bold-webfont.svg#neutrafacecondensedpsbold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neutrafacecondensedps';
+  src: url("../fonts/neutrafacecondensedps-medium-webfont.eot");
+  src: url("../fonts/neutrafacecondensedps-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/neutrafacecondensedps-medium-webfont.woff2") format("woff2"), url("../fonts/neutrafacecondensedps-medium-webfont.woff") format("woff"), url("../fonts/neutrafacecondensedps-medium-webfont.ttf") format("truetype"), url("../fonts/neutrafacecondensedps-medium-webfont.svg#neutrafacecondensedpsmedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neutrafacecondensedps';
+  src: url("../fonts/neutrafacecondensedps-light-webfont.eot");
+  src: url("../fonts/neutrafacecondensedps-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/neutrafacecondensedps-light-webfont.woff2") format("woff2"), url("../fonts/neutrafacecondensedps-light-webfont.woff") format("woff"), url("../fonts/neutrafacecondensedps-light-webfont.ttf") format("truetype"), url("../fonts/neutrafacecondensedps-light-webfont.svg#neutrafacecondensedpslight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neutrafacecondensedps';
+  src: url("../fonts/neutrafacecondensedps-thin-webfont.eot");
+  src: url("../fonts/neutrafacecondensedps-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/neutrafacecondensedps-thin-webfont.woff2") format("woff2"), url("../fonts/neutrafacecondensedps-thin-webfont.woff") format("woff"), url("../fonts/neutrafacecondensedps-thin-webfont.ttf") format("truetype"), url("../fonts/neutrafacecondensedps-thin-webfont.svg#neutrafacecondensedpsthin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+body{
+	font-family: 'neutrafacecondensedps';
+	font-size: 17px;
+	font-weight: 500;
+	font-style: normal;
+	width: 100%;
+	margin: 0 auto;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section, footer{
+	width: 1005px;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+
+h2, h3{
+	margin: 10px auto;
+	text-align: center;
+}
+
+h2{
+	color: #ffbb00;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+h3{
+  	font-weight: 500;
+	font-size: 50px;
+}
+
+h4, h5{
+	font-family: 'dosis';
+	font-weight: 100;
+}
+
+p{
+	font-family: "dosis";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+li{
+	list-style: none;
+	margin-right: 20px;
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	border: 1px solid #ffbb00;
+	color: #ffbb00;
+	padding: 10px 25px;
+}
+
+/*Header*/
+
+header{
+	width: 100%;
+	height: 703px;
+	background-size: cover;
+	position: relative;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,282928+100&0+17,0.89+100 */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(218,219,218,0) 17%, rgba(40,41,40,0.89) 100%), url(../images/bg-header.png) no-repeat scroll #f6f6f6; /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(218,219,218,0) 17%,rgba(40,41,40,0.89) 100%), url(../images/bg-header.png) no-repeat scroll #f6f6f6; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(218,219,218,0) 17%,rgba(40,41,40,0.89) 100%), url(../images/bg-header.png) no-repeat scroll #f6f6f6; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e3282928',GradientType=0 ); /* IE6-9 */
+	background-position: bottom;
+
+}
+
+header img{
+	display: block;
+	width: 420px;
+	margin: auto;
+	padding-top: 320px;	
+}
+
+header h1{
+	width: 23%;
+	margin: 30px auto;
+	font-weight: 100;
+	font-size: 17px;
+	color: #ccc;
+	text-align: center;
+	font-family: 'dosis';
+	font-weight: 400;
+
+
+}
+
+.chevron-bottom{
+	display: block;
+	text-align: center;
+}
+
+.chevron-bottom::before {
+	content: '';
+	border-style: solid;
+	border-width: 2px 2px 0 0;
+	color: #fff;
+	display: inline-block;
+	height: 24px;
+	width: 24px;	
+	transform: rotate(-225deg);
+}
+
+.menu{
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	bottom: 30px;	
+}
+
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+
+/*Bloc présentation*/
+
+.bloc-presentation{
+	background: url(../images/bg-presentation.jpg) no-repeat center top;
+	padding: 10px;
+}
+
+.bloc-presentation h2, .bloc-presentation h3{
+	text-align: left;
+}
+
+.bloc-paragraphe p{
+	line-height: 27px;
+	display: inline-block;
+}
+
+.bloc-paragraphe{
+	margin: 20px 0 80px;
+	-webkit-columns: 400px;
+    -moz-columns: 2 400px;
+    columns: 2 400px;
+    -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+}
+
+.paragraphe{
+	width: 80%;
+	margin: 35px auto;
+	padding: 15px;
+	line-height: 25px;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'neutrafacecondensedps';
+	font-weight: 500;
+
+
+}
+
+.bloc-presentation p:last-child{
+	font-family: 'neutrafacecondensedps';
+	color: #ffbb00;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+/*Bloc Expertise*/
+
+.bloc-expertise{
+	width: 100%;
+	background: url(../images/bg-competences.jpg) no-repeat scroll center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.bloc-expertise li{
+	width: 140px;
+	margin: 15px;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+.bloc-expertise h3, .bloc-expertise h4{
+	color: #fff;
+}
+
+/*Bloc Equipe*/
+
+.bloc-equipe{
+	width: 100%;
+	background-color: #f6f5f3;
+}
+
+.bloc-equipe h3{
+	margin-bottom: 50px;
+}
+
+.bloc-equipe p{
+	width: 1005px;
+	line-height: 25px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.bloc-equipe ul{
+	justify-content: space-between;
+	width: 1005px;
+	margin: 30px auto;
+}
+
+.bloc-equipe li{
+	position: relative;
+	width: 30%;
+	height: 580px;
+	margin: 0;
+	padding: 10px;
+}
+
+.bloc-equipe h4{
+	font-weight: 700;
+}
+
+.bloc-equipe h5{
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.bloc-equipe a{
+	background-color: #ffbb00;
+	color: #fff;
+	position: absolute;
+	bottom: 30px;
+	left: 35%;
+	display: none;
+}
+
+.bloc-equipe li:hover a{
+	display: block;
+}
+
+/*Bloc Partenaires*/
+
+
+
+.bloc-partenaire ul{
+	justify-content: space-between;
+}
+
+.chevron-left::before {
+	content: '';
+	border-style: solid;
+	border-width: 2px 2px 0 0;
+	color: #ffbb00;
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	transform: rotate(-135deg);
+}
+
+.chevron-right::after {
+	content: '';
+	border-style: solid;
+	border-width: 2px 2px 0 0;
+	color: #ffbb00;
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	transform: rotate(43deg);
+}
+
+/*Bloc Experience*/
+
+.bloc-experience{
+	width: 100%;
+	height: 680px;
+	background: url(../images/bg-bloc.png) no-repeat right scroll, #f6f5f3;
+	background-size: contain;
+}
+
+.paragraphe1{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.paragraphe2{
+	width: 500px;
+	margin: 20px 150px;
+}
+
+.bloc-experience h4{
+	margin: 20px 150px;
+	color: #ffbb00;
+	font-size: 18px;
+	padding-top: 40px;
+	font-family: 'neutrafacecondensedps';
+	font-weight: 500;
+	font-size: 30px;
+}
+
+/*Bloc Reseau*/
+
+.bloc-reseau{
+	width: 100%;
+	background: url(../images/bg-reseau.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.bloc-reseau ul{
+	justify-content: space-between;
+	width: 1005px;
+	padding: 30px 0;	
+}
+
+.bloc-reseau li{
+	width: 30%;
+	height: 180px;
+	vertical-align: top;
+	text-align: center;
+}
+
+/*Bloc Actualité*/
+
+.bloc-actualite{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.bloc-actualite article{
+	margin-bottom: 80px;
+	font-size: 0;
+}
+
+.bloc-actualite div{
+	background-color: #f6f5f3;
+	width: 740px;
+	padding: 70px;
+	font-size: 17px;
+	vertical-align: top;
+	margin-top: 50px;
+	margin-left: -70px;
+}
+
+article:nth-child(odd){
+	float: left;
+}
+
+article img, article div{
+	display: inline-block;
+}
+
+article:nth-child(even){
+	clear: left;
+	float: right;
+}
+
+article:nth-child(even) div{
+	margin-top: 50px;
+	margin-right: -70px;
+}
+
+
+.img-article{
+	float: right;
+}
+
+article a{
+	display: block;
+	width: 170px;
+	padding: 10px;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+}
+
+article a:hover{
+	background: #ffbb00 none repeat scroll 0 0;
+    color: #fff;
+    }
+
+.boutonjaune{
+	clear: left;
+	background: #ffbb00 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    margin: auto;
+    width: 190px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.boutonjaune:hover{
+	background:	#fff;
+	color: 	#ffbb00;
+}
+
+article time{
+	color: #ffbb00;
+	font-weight: 700;
+	line-height: 25px;
+}
+
+article h4{
+	font-family: 'neutrafacecondensedps';
+	font-weight: 500;
+	font-size: 40px;
+	margin: 0;
+	line-height: 45px;
+}
+
+article h5{
+	font-family: 'neutrafacecondensedps';
+	font-weight: 700;
+	font-size: 17px;
+	margin: 0;
+	line-height: 50px;
+}
+
+/*Bloc Contact*/
+
+.bloc-contact{
+	width: 100%;
+	display: inline-block;
+	background: url(../images/bg-footer.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+.petit-bloc-contact{
+	width: 1005px;
+	margin: auto;
+	
+}
+
+input, textarea{
+	display: block;
+	width: 200px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	padding-bottom: 5px;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'neutrafacecondensedps'
+	font-weight: 500;
+}
+
+textarea{
+	width: 455px;
+	font-size: 16px;
+}
+
+input[type=submit]{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+
+form div{
+	display: inline-block;
+}
+
+form{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.entreprise{
+	display: inline-block;
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	padding-left: 30px;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+
+.entreprise, .entreprise h2{
+	font-size: 28px;
+	color: #fff;
+	text-align: left;
+}
+
+.entreprise h2{
+	padding: 10px 0;
+}
+
+.entreprise p{
+	margin: 0;
+}
+
+.entreprise p+p{
+	margin-bottom: 20px;
+}
+
+.entreprise address::before{
+	content: "\f041";
+	font-family: fontAwesome;
+	margin-right: 15px;
+}
+
+.entreprise p::before{
+	content: "\f095";
+	font-family: fontAwesome;
+	margin-right: 10px;
+}
+
+.entreprise address{
+	padding-bottom: 10px;
+	font-style: normal;
+}
+
+/*Bloc Footer*/
+
+footer{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+footer img{
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+footer a{
+	text-decoration: none;
+	color: #222;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: none;
+}
+
+footer ul{
+	display: inline-block;
+	margin: 20px;
+	vertical-align: middle;
+}
+
+footer li{
+	display: inline-block;
+}
+
+footer li:hover, footer a:hover{
+	color: #ffbb00;
+}
+
+footer p{
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	line-height: 35px;
+	background-color: #f6f5f3;
+	margin: 0;
+	position: absolute;
+}
+
+footer span{
+	text-decoration: underline;
+}
+
+.fa-copyright{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+

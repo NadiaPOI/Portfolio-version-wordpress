@@ -1,0 +1,105 @@
+html {
+	background: url(../images/water.jpeg) no-repeat center center fixed;
+	font-size: 62.5%;
+
+}
+
+body{
+	font-size: 1.6rem;
+	margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 100;
+	margin: 0 auto;
+	text-align: center;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1{
+	background: #599DA8;
+	color: 	#fff;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	line-height: 5rem;
+}
+
+h1::before{
+	content: url(../images/1490374341_halloween_outline-24.png);
+	padding-right: 1rem;
+	vertical-align: middle;
+}
+
+h1::after{
+	content: url(../images/1490374341_halloween_outline-24.png);
+	padding-left: 1rem;
+	vertical-align: middle;
+}
+
+.gallery{
+	width: 80rem;	
+	height: 50rem;
+	overflow: hidden;
+	margin: 10rem auto;
+	border: solid 1rem #ccc;
+	position: relative;
+
+}
+
+.gallery>img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: block;	
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.arbre {
+	display: block;
+	width: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.img {
+	width: 35rem;
+	height: 35rem;
+}
+
+.row{
+	width: 100%;
+	height: 50rem;
+	margin: 5rem auto;
+	text-align: center;
+}
+
+.row button{
+	display: block;
+	border: none;
+	line-height: 4rem;
+	width: 25rem;
+	margin: 1rem auto;
+	background: #599DA8;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.row>img{
+	display: inline-block;
+	max-width: 100%;
+	background: #ccc;
+	padding: 10px;
+	margin: 50px 5px 0;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
